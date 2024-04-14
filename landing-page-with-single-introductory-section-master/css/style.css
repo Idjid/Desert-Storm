@@ -1,0 +1,67 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.lines-down {
+  margin: 80px;
+  margin-top: 0;
+  padding: 40px;
+}
+.lines-up {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 40px;
+}
+.padding {
+  padding: 40px;
+}
+.icon {
+  margin: 0;
+  margin-left: 80px;
+  padding: 0;
+  padding-left: 40px;
+}
+.big {
+  font-size: 50px;
+  margin: 0;
+}
+.medium {
+  font-size: 20px;
+}
+button {
+  background-color: #e980e7;
+  border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 24px;
+}
+.transformation {
+  background-color: white;
+  color: #664cb1;
+  border: 2px solid #664cb1;
+}
+.transformation:hover {
+  background-color: #e980e7;
+  color: white;
+}
+
+.shadow:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  background-color: #664cb1;
+  color: white;
+}
+.myHeader {
+  background-color: #664cb1;
+  text-align: left;
+}
